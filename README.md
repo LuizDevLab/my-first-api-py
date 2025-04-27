@@ -32,6 +32,13 @@ Basic functionalities have been started, but improvements, adjustments, and new 
 ## How to run the project
 
 ### Clone the repository
-```bash
 git clone https://github.com/your-username/your-repository.git
-cd your-repository
+cd your-repository 
+
+### Install dependencies
+pip install -r requirements.txt
+
+### Run the server
+uvicorn main:app --reload
+
+The server will start at http://127.0.0.1:8000
